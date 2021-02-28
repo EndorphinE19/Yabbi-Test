@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "writer@mail.com",
+      "password": 123456,
+      "role": "writer"
+    },
+    {
+      "id": 2,
+      "login": "reader@mail.com",
+      "password": 123456,
+      "role": "reader"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "rrrru",
+      "description": "rrru",
+      "claps": 5,
+      "createdAt": "2019-09-29T00:00:00.000Z",
+      "updateAt": "2021-02-27T17:02:44.283Z",
+      "userId": 1
+    },
+    {
+      "title": "Собствева",
+      "description": "выаыв",
+      "claps": 0,
+      "createdAt": "2021-02-27T13:34:14.077Z",
+      "updateAt": "",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "title": "Собствева",
+      "description": "выаыв",
+      "claps": 0,
+      "createdAt": "2021-02-27T13:35:01.452Z",
+      "updateAt": "",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "dddddddddd",
+      "description": "dddddddddddddddddddd",
+      "claps": 3,
+      "createdAt": "2021-02-27T13:35:46.193Z",
+      "updateAt": "2021-02-28T13:32:25.083Z",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "sd",
+      "description": "sd",
+      "claps": 0,
+      "createdAt": "2021-02-27T13:35:56.960Z",
+      "updateAt": "",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "title": "sd",
+      "description": "sdf",
+      "claps": 0,
+      "createdAt": "2021-02-27T13:36:06.085Z",
+      "updateAt": "",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "title": "еееее",
+      "description": "нееее",
+      "claps": 0,
+      "createdAt": "2021-02-27T13:42:15.692Z",
+      "updateAt": "",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "title": "fffffffffff",
+      "description": "ffffffffff",
+      "claps": 0,
+      "createdAt": "2021-02-27T13:43:32.170Z",
+      "updateAt": "",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "title": "tttttttttt",
+      "description": "tttttttttt",
+      "claps": 0,
+      "createdAt": "2021-02-27T13:45:57.299Z",
+      "updateAt": "",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "title": "фыв",
+      "description": "фыв",
+      "claps": 1,
+      "createdAt": "2021-02-27T13:46:27.689Z",
+      "updateAt": "",
+      "userId": 1,
+      "id": 10
+    }
+  ]
+}
