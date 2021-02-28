@@ -5,6 +5,11 @@
 npm install
 ```
 
+### Для запуска приложения используйте команду
+```
+npm run serve & npm run start
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
