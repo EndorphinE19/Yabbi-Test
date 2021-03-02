@@ -69,7 +69,8 @@ export default {
                                     message: 'Вы авторизованы',
                                     type: 'is-success'
                                 })
-                                this.$router.push('/', () => {})
+
+                                setTimeout(() => location.href = location.href, 100)
 
                             })
                         }

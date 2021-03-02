@@ -38,14 +38,13 @@ export default {
         },
 
         LOGOUT({ commit }) {
-            
 
-                localStorage.removeItem('user')
-                localStorage.removeItem('auth')
-                localStorage.removeItem('role')
-                commit('UPDATE_AUTH', '')
+            localStorage.removeItem('user')
+            localStorage.removeItem('auth')
+            localStorage.removeItem('role')
+            commit('UPDATE_AUTH', '')
 
-                return true
+            return true
             
         }
     },

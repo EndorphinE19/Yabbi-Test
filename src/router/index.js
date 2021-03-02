@@ -60,9 +60,9 @@ router.beforeEach((to, from, next) => {
     }
     next('/auth') 
   } else {
-
+  
     if (store.getters.GETTERS_AUTH && (to.name === 'Auth')) {
-    
+      
       next('/')
       return
     }
