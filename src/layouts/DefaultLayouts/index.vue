@@ -3,7 +3,7 @@
         <headers>
             <b-button
             v-if="visibleCreateButton"
-            @click="$router.push('/create-post')">
+            @click="$router.push('/create-post', () => {})">
                 Создать
             </b-button>
         </headers>

@@ -25,10 +25,10 @@ export default {
             if (this.GETTERS_AUTH) {
                 this.LOGOUT()
                 this.UPDATE_ROLE('')
-                this.$router.push('/auth')
+                this.$router.push('/auth', () => {})
             }
             
-            this.$router.push('/auth')
+            this.$router.push('/auth', () => {})
         }
     }
 }

@@ -26,7 +26,7 @@
                     </b-button>
                     <template v-if="(GETTERS_CURRENT_USER.role === 'writer') && (GETTERS_CURRENT_USER.id === item.userId)">
                         <b-button
-                        @click="$router.push(`/update-post/${item.id}`)"
+                        @click="$router.push(`/update-post/${item.id}`, () => {})"
                         icon-left="comment-edit"
                         type="is-info is-light">
                             Изменить

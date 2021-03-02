@@ -58,7 +58,7 @@ export default {
                         type: 'is-success'
                     })
 
-                    this.$router.push('/')
+                    this.$router.push('/', () => {})
 
                 }
 

@@ -69,7 +69,7 @@ export default {
                                     message: 'Вы авторизованы',
                                     type: 'is-success'
                                 })
-                                this.$router.push('/')
+                                this.$router.push('/', () => {})
 
                             })
                         }
